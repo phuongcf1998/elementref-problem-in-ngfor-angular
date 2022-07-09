@@ -1,0 +1,15 @@
+p {
+  font-family: Lato;
+}
+
+.color{
+  background-color: red;
+  width: 100px;
+  height: 20px;
+}
+
+.innercolor{
+  background-color: green;
+  width: 100px;
+  height: 5px;
+}

@@ -1,0 +1,9 @@
+<div>
+  <div class="color"></div>
+  <ul>
+    <li *ngFor="let item of numberList; let index = index;" >
+      <div class="innercolor" #innercolor></div>
+      <p (click) = "onItemClick(index)" >{{item}}</p>
+    </li>
+  </ul>
+</div>
